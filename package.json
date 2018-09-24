@@ -1,0 +1,45 @@
+{
+	"name": "monokai-cus",
+	"displayName": "Monokai Custom",
+	"description": "A customized version of the pre-packaged Monokai theme for Visual Studio Code.",
+	"publisher": "BrokenSpaghettiAdmin",
+	"version": "1.0.1",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Custom Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-color-theme.json"
+			}
+		]
+	},
+	"configuration": {
+		"type": "object",
+		"title": "Monokai Custom"
+	},
+	"devDependencies": {
+		"vscode": "*"
+	},
+	"keywords": [
+		"theme",
+		"monokai",
+		"custom",
+		"remix",
+		"dark"
+	],
+	"qna": false,
+	"__metadata": {
+		"id": "ba58fb0b-6369-414d-ae04-c6f8a81ff7a2",
+		"publisherId": "9c2b04f4-2b37-4aaf-9a48-62256d51a0d8",
+		"publisherDisplayName": "Broken Spaghetti Admin"
+	},
+	"dependencies": {
+		"vsce": "^1.49.2"
+	}
+}
