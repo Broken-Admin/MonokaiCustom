@@ -3,7 +3,10 @@
 	"displayName": "Monokai Custom",
 	"description": "A customized version of the pre-packaged Monokai theme for Visual Studio Code.",
 	"publisher": "BrokenSpaghettiAdmin",
-	"version": "1.0.1",
+	"version": "1.0.2",
+	"repository": {
+		"url": "https://github.com/Broken-Admin/MonokaiCustom"
+	},
 	"engines": {
 		"vscode": "*"
 	},
