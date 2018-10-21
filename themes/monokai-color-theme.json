@@ -40,25 +40,17 @@
 		"activityBarBadge.background": "#3655b5",
 		"sideBar.background": "#272727",
 		"sideBarSectionHeader.background": "#505050",
-		"notification.background": "#353535",
 		"pickerGroup.foreground": "#b0b0b0",
 		"terminal.ansiWhite": "#ffffff",
 		"inputOption.activeBorder": "#3655b5",
 		"focusBorder": "#3655b5"
 	},
 	"tokenColors": [{
-			"settings": {
-				"background": "#272822",
-				"foreground": "#F8F8F2"
-			}
-		},
-		{
 			"scope": [
 				"meta.embedded",
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"background": "#272822",
 				"foreground": "#F8F8F2"
 			}
 		},
@@ -230,7 +222,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#ad0000",
 				"fontStyle": "",
 				"foreground": "#F8F8F0"
 			}
@@ -239,7 +230,6 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#AE81FF",
 				"foreground": "#F8F8F0"
 			}
 		},
